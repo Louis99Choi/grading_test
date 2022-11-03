@@ -30,7 +30,7 @@ from craft import CRAFT
 from collections import OrderedDict
 
 ##### set PATH ####
-path_pdfImgDir = "../pdfFolder/class/jpg/a_test/"
+path_pdfImgDir = "../pdfFolder/class/jpg/b_test/"
 path_result = path_pdfImgDir + "result_detect/"
 
 
@@ -51,8 +51,8 @@ def str2bool(v):
 
 parser = argparse.ArgumentParser(description='CRAFT Text Detection')
 parser.add_argument('--trained_model', default='./weights/craft_mlt_25k.pth', type=str, help='pretrained model')
-parser.add_argument('--text_threshold', default=0.1, type=float, help='text confidence threshold')
-parser.add_argument('--low_text', default=0.4, type=float, help='text low-bound score')
+parser.add_argument('--text_threshold', default=0.0005, type=float, help='text confidence threshold')
+parser.add_argument('--low_text', default=0.33, type=float, help='text low-bound score')
 parser.add_argument('--link_threshold', default=0.63, type=float, help='link confidence threshold')
 parser.add_argument('--cuda', default=True, type=str2bool, help='Use cuda for inference')
 parser.add_argument('--canvas_size', default=1280, type=int, help='image size for inference')
@@ -208,6 +208,8 @@ if __name__ == '__main__':
 
         # index for saving answer piece to .png
         answerNum = 0
+        pre_bottom = 0
+        lostNum = 0
 
         for i, box in enumerate(bboxes):
 
@@ -220,12 +222,29 @@ if __name__ == '__main__':
             width = right-left
 
             if( ((left >= 1250) and (left <= 4400)) and ((top >= 1700) and (top <= 6400)) ) :
-                print("... saving answer {", answerNum, "\b.png}...\n")
+
+                # check probability of lost answer
+                if( (answerNum !=0) and ((top - pre_bottom) > 230) ):
+                    lostNum = lostNum + 1
+                    print("!!!!! You must check answer { %d.png }, it would be lost !!!!!\n"
+                          "\tLost Num : %d\n" %(answerNum,lostNum))
+                    answerNum = answerNum + 1
+
+                # Check probability of big box that contain previous answer
+                if(width > 300) :
+                    print("!!!!! Check this answer { %d.png }, it would contain previous answer !!!!!" %(answerNum+1))
+                    answerNum = answerNum + 1
+
+                pre_bottom = bottom
+
+
+                print("... saving answer {", answerNum, "\b.png}...")
                 imgCopy = image[:,:,::-1]
 
                 # save answer of ROI to .png from PIL Image
                 cv2.imwrite(cutAnswerDir + "{}".format(answerNum) + ".png",
                             imgCopy[top-20:bottom+20, left-20:right+20, : ].copy())
+
                 # answerNum++
                 answerNum = answerNum + 1
 
