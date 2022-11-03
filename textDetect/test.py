@@ -226,7 +226,7 @@ if __name__ == '__main__':
                 # check probability of lost answer
                 if( (answerNum !=0) and ((top - pre_bottom) > 230) ):
                     lostNum = lostNum + 1
-                    print("!!!!! You must check answer { %d.png }, it would be lost !!!!!\n"
+                    print("\n!!!!! You must check answer { %d.png }, it would be lost !!!!!\n"
                           "\tLost Num : %d\n" %(answerNum,lostNum))
                     answerNum = answerNum + 1
 
