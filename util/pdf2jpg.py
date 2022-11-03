@@ -6,10 +6,10 @@ from pdf2image.exceptions import (
     PDFSyntaxError
 )
 
-students = 10
+students = 5
 
 file_path = "C:/grading_test/pdfFolder/class/"
-file_name = "test1.pdf"
+file_name = "a_test.pdf"
 outputFolder_path = file_path + "jpg/" + file_name[:-4] + "/"
 
 

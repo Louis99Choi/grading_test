@@ -22,6 +22,7 @@ def getDetBoxes_core(textmap, linkmap, text_threshold, link_threshold, low_text)
     textmap = textmap.copy()
     img_h, img_w = textmap.shape
 
+
     """ labeling method """
     ret, text_score = cv2.threshold(textmap, low_text, 1, 0)
     ret, link_score = cv2.threshold(linkmap, link_threshold, 1, 0)

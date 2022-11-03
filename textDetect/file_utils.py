@@ -53,13 +53,35 @@ def saveResult(img_file, img, boxes, dirname='./result/', verticals=None, texts=
             os.mkdir(dirname)
 
         with open(res_file, 'w') as f:
+
+            poly_infoSector = np.array([[600, 400],[4850, 400],[4850, 1800],[600, 1800]])
+            poly_questionSector = np.array([[600, 1700],[1290,1700],[1290, 6300],[600,6300]])
+            poly_answerSector = np.array([[1250, 1700],[4400, 1700],[4400, 6400],[1250, 6400]])
+
+            cv2.polylines(img, [poly_infoSector], True, color=(255, 0, 0), thickness=4)
+            cv2.polylines(img, [poly_questionSector], True, color=(255, 255, 0), thickness=4)
+            cv2.polylines(img, [poly_answerSector], True, color=(255, 0, 0), thickness=4)
+
             for i, box in enumerate(boxes):
+                #print("box : ", box) ##########################################
+
                 poly = np.array(box).astype(np.int32).reshape((-1))
+                #print("poly : ", poly) ##########################################
+
                 strResult = ','.join([str(p) for p in poly]) + '\r\n'
                 f.write(strResult)
 
                 poly = poly.reshape(-1, 2)
+                #print("poly.reshape(-1, 2) : \n", poly) ##########################################
+
+                #print("poly.reshape((-1, 1, 2)) : \n", poly.reshape((-1, 1, 2)))
+
+                # draw ROI
                 cv2.polylines(img, [poly.reshape((-1, 1, 2))], True, color=(0, 0, 255), thickness=2)
+
+                # cut ROI to .png
+
+
                 ptColor = (0, 255, 255)
                 if verticals is not None:
                     if verticals[i]:
@@ -67,9 +89,11 @@ def saveResult(img_file, img, boxes, dirname='./result/', verticals=None, texts=
 
                 if texts is not None:
                     font = cv2.FONT_HERSHEY_SIMPLEX
-                    font_scale = 0.5
-                    cv2.putText(img, "{}".format(texts[i]), (poly[0][0]+1, poly[0][1]+1), font, font_scale, (0, 0, 0), thickness=1)
-                    cv2.putText(img, "{}".format(texts[i]), tuple(poly[0]), font, font_scale, (0, 255, 255), thickness=1)
+                    font_scale = 3
+                    cv2.putText(img, "{}".format(i), (poly[0][0]+1, poly[0][1]+1), font, font_scale, (0, 0, 0), thickness=3)
+                    cv2.putText(img, "{}".format(i), tuple(poly[0]), font, font_scale, (0, 255, 255), thickness=3)
+
+
 
         # Save result image
         cv2.imwrite(res_img_file, img)
