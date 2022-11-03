@@ -231,7 +231,7 @@ if __name__ == '__main__':
                     answerNum = answerNum + 1
 
                 # Check probability of big box that contain previous answer
-                if(width > 300) :
+                if(height > 300) :
                     print("!!!!! Check this answer { %d.png }, it would contain previous answer !!!!!" %(answerNum+1))
                     answerNum = answerNum + 1
 
