@@ -4,6 +4,9 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/textDetect" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/util" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/textRecog" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/textRecog/deep-text-recognition-benchmark-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/textRecog/deep-text-recognition-benchmark-master/deep-text-recognition-benchmark-master" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (ocr)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

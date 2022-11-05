@@ -56,7 +56,7 @@ def saveResult(img_file, img, boxes, dirname='./result/', verticals=None, texts=
 
             poly_infoSector = np.array([[600, 400],[4850, 400],[4850, 1800],[600, 1800]])
             poly_questionSector = np.array([[600, 1700],[1290,1700],[1290, 6300],[600,6300]])
-            poly_answerSector = np.array([[1250, 1700],[4400, 1700],[4400, 6400],[1250, 6400]])
+            poly_answerSector = np.array([[1250, 1700],[4400, 1700],[4400, 6300],[1250, 6300]])
 
             cv2.polylines(img, [poly_infoSector], True, color=(255, 0, 0), thickness=4)
             cv2.polylines(img, [poly_questionSector], True, color=(255, 255, 0), thickness=4)

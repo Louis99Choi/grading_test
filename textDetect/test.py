@@ -30,7 +30,7 @@ from craft import CRAFT
 from collections import OrderedDict
 
 ##### set PATH ####
-path_pdfImgDir = "../pdfFolder/class/jpg/b_test/"
+path_pdfImgDir = "../pdfFolder/class/jpg/c_test/"
 path_result = path_pdfImgDir + "result_detect/"
 
 
@@ -50,9 +50,9 @@ def str2bool(v):
 
 
 parser = argparse.ArgumentParser(description='CRAFT Text Detection')
-parser.add_argument('--trained_model', default='./weights/craft_mlt_25k.pth', type=str, help='pretrained model')
+parser.add_argument('--trained_model', default='./weights/craft_ic15_20k.pth', type=str, help='pretrained model')
 parser.add_argument('--text_threshold', default=0.0005, type=float, help='text confidence threshold')
-parser.add_argument('--low_text', default=0.33, type=float, help='text low-bound score')
+parser.add_argument('--low_text', default=0.23, type=float, help='text low-bound score')
 parser.add_argument('--link_threshold', default=0.63, type=float, help='link confidence threshold')
 parser.add_argument('--cuda', default=True, type=str2bool, help='Use cuda for inference')
 parser.add_argument('--canvas_size', default=1280, type=int, help='image size for inference')
