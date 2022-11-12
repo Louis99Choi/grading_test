@@ -1,0 +1,49 @@
+[33mcommit 8eed2ab36e8fa767b4b63103511dcffb7d8556b5[m[33m ([m[1;36mHEAD -> [m[1;32mcascadeTabNet[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Louis99Choi <ho03206@naver.com>
+Date:   Sun Nov 6 04:20:40 2022 +0900
+
+    commit before create new branch for table detection
+
+[33mcommit 93410a0119447979d79e392adb43f03f21ce2fd5[m
+Author: Louis99Choi <ho03206@naver.com>
+Date:   Fri Nov 4 06:01:03 2022 +0900
+
+    add event process (not found or contain other anwser box)
+     fix !! )  \n
+
+[33mcommit db7f5aece51fe3e920e09f88fc5c8fef129245c3[m
+Author: Louis99Choi <ho03206@naver.com>
+Date:   Fri Nov 4 06:00:14 2022 +0900
+
+    add event process (not found or contain other anwser box)
+     fix !! )  width > height
+
+[33mcommit 319ca6b582fd2c8aefffeca290884495a66a7050[m
+Author: Louis99Choi <ho03206@naver.com>
+Date:   Fri Nov 4 05:59:05 2022 +0900
+
+    add event process (not found or contain other anwser box)
+
+[33mcommit 046120d53e6bab4afd0e9bbb527e4de5c9d754fc[m
+Author: Louis99Choi <ho03206@naver.com>
+Date:   Fri Nov 4 05:01:22 2022 +0900
+
+    complete cutting answer pieces and save
+
+[33mcommit 1486e3d2628665b76cad1c7285048e322125b667[m
+Author: Louis99Choi <ho03206@naver.com>
+Date:   Thu Nov 3 00:02:11 2022 +0900
+
+    dd
+
+[33mcommit fa85318b1c0d60be08b0e0e9f9ef8b7b94d68abb[m
+Author: Louis99Choi <ho03206@naver.com>
+Date:   Thu Oct 27 16:12:30 2022 +0900
+
+    add craft src
+
+[33mcommit ed4239fb6e04ee876bedd793ab43c788a7d8c480[m
+Author: Louis99Choi <73094206+Louis99Choi@users.noreply.github.com>
+Date:   Sat Aug 20 16:32:31 2022 +0900
+
+    Initial commit
