@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c911faa-8211-42f8-894f-d9c0c8c0d67d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tableDetect/cascadeTabNet/weights/epoch_13_Table_BankBoth_table_detection.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/grading_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/grading_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableDetect/cascadeTabNet/Table Structure Recognition/Functions/borderFunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/tableDetect/cascadeTabNet/Table Structure Recognition/Functions/borderFunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tableDetect/cascadeTabNet/Table Structure Recognition/border.py" beforeDir="false" afterPath="$PROJECT_DIR$/tableDetect/cascadeTabNet/Table Structure Recognition/border.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tableDetect/cascadeTabNet/Table Structure Recognition/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tableDetect/cascadeTabNet/Table Structure Recognition/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,7 @@
       <workItem from="1667423909023" duration="13879000" />
       <workItem from="1667458417488" duration="47795000" />
       <workItem from="1668350103636" duration="2810000" />
-      <workItem from="1668368412494" duration="2134000" />
+      <workItem from="1668368412494" duration="3042000" />
     </task>
     <task id="LOCAL-00001" summary="complete cutting answer pieces and save">
       <created>1667505682894</created>

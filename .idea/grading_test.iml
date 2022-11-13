@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/textRecog/deep-text-recognition-benchmark-master" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/textRecog/deep-text-recognition-benchmark-master/deep-text-recognition-benchmark-master" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Remote Python 3.10.0 (/home/louischoi/miniconda3/bin/python3.10)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.10 (ocr)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">

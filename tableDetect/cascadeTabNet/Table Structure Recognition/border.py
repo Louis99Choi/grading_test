@@ -1,4 +1,3 @@
-
 from Functions.borderFunc import extract_table,extractText,span
 import lxml.etree as etree
 import cv2

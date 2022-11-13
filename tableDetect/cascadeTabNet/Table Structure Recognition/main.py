@@ -1,4 +1,4 @@
-from border import border
+import border
 from mmdet.apis import inference_detector, init_detector
 import cv2
 from Functions.blessFunc import borderless
