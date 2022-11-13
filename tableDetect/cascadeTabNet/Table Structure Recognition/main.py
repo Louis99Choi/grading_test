@@ -21,7 +21,7 @@ checkpoint_file = '../weights/epoch_13_Table_BankBoth_table_detection.pth'
 
 # Test a single image
 path_pdfImgDir = "../../../pdfFolder/class/jpg/a_test/a_test_0.jpg"
-path_result = "../../../pdfFolder/class/jpg/a_test/a_test/result_table/a_test_0.xml"
+path_result = "../../../pdfFolder/class/jpg/a_test/result_table/"
 
 
 ############ To Do ############
