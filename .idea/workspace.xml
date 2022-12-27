@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c911faa-8211-42f8-894f-d9c0c8c0d67d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/grading_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/grading_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/b_test_0_answer/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/res_b_test_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/res_b_test_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/res_b_test_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFolder/class/jpg/b_test/result_detect/res_b_test_0.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/textDetect/file_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/textDetect/file_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/textDetect/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/textDetect/test.py" afterDir="false" />
     </list>
@@ -41,7 +25,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cascadeTabNet" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -58,22 +49,96 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2H0ZLcLk80rmsVv7nyTsJkDwscX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/grading_test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/grading_test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests in test.py">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="grading_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="ASYNCIO_DEBUGGER_ENV" value="True" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tableDetect/cascadeTabNet/Table Structure Recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tableDetect/cascadeTabNet/Table Structure Recognition/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="grading_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tableDetect/cascadeTabNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tableDetect/cascadeTabNet/predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="grading_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textDetect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/textDetect/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test.py" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.predict" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,6 +149,13 @@
       <updated>1667423906955</updated>
       <workItem from="1667423909023" duration="13879000" />
       <workItem from="1667458417488" duration="47795000" />
+      <workItem from="1668350103636" duration="2810000" />
+      <workItem from="1668368412494" duration="17908000" />
+      <workItem from="1671532473056" duration="30000" />
+      <workItem from="1671532535473" duration="30000" />
+      <workItem from="1671532635865" duration="24000" />
+      <workItem from="1671532684686" duration="175000" />
+      <workItem from="1671534004378" duration="27600000" />
     </task>
     <task id="LOCAL-00001" summary="complete cutting answer pieces and save">
       <created>1667505682894</created>
@@ -113,13 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667509263531</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add event process (not found or contain other anwser box)&#10; fix !! )  \n">
+      <created>1672121444050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672121444050</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="complete cutting answer pieces and save" />
     <MESSAGE value="add event process (not found or contain other anwser box)" />
     <MESSAGE value="add event process (not found or contain other anwser box)&#10; fix !! )  width &gt; height" />
@@ -184,14 +264,23 @@
           <line>55</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tableDetect/cascadeTabNet/Table Structure Recognition/mmdetection/mmdet/datasets/utils.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/grading_test$predict__1_.coverage" NAME="predict (1) Coverage Results" MODIFIED="1668083584432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tableDetect/cascadeTabNet" />
     <SUITE FILE_PATH="coverage/grading_test$pdf2jpg.coverage" NAME="pdf2jpg Coverage Results" MODIFIED="1667456624074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/grading_test$file_utils.coverage" NAME="file_utils Coverage Results" MODIFIED="1667482052704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textDetect" />
-    <SUITE FILE_PATH="coverage/grading_test$test.coverage" NAME="test Coverage Results" MODIFIED="1667527797160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textDetect" />
-    <SUITE FILE_PATH="coverage/grading_test$craft_utils.coverage" NAME="craft_utils Coverage Results" MODIFIED="1667464518836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textDetect" />
     <SUITE FILE_PATH="coverage/grading_test$Doctests_in_shutil.coverage" NAME="Doctests in shutil Coverage Results" MODIFIED="1667508293529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/miniconda3/envs/ocr/Lib" />
+    <SUITE FILE_PATH="coverage/grading_test$predict.coverage" NAME="predict Coverage Results" MODIFIED="1672119691924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tableDetect/cascadeTabNet" />
+    <SUITE FILE_PATH="coverage/grading_test$.coverage" NAME=" Coverage Results" MODIFIED="1672127237085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textDetect" />
+    <SUITE FILE_PATH="coverage/grading_test$main.coverage" NAME="main Coverage Results" MODIFIED="1672126590279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tableDetect/cascadeTabNet/Table Structure Recognition" />
+    <SUITE FILE_PATH="coverage/grading_test$craft_utils.coverage" NAME="craft_utils Coverage Results" MODIFIED="1667464518836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textDetect" />
+    <SUITE FILE_PATH="coverage/grading_test$test.coverage" NAME="test Coverage Results" MODIFIED="1667527797160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textDetect" />
   </component>
 </project>

@@ -77,7 +77,7 @@ def saveResult(img_file, img, boxes, dirname='./result/', verticals=None, texts=
                 #print("poly.reshape((-1, 1, 2)) : \n", poly.reshape((-1, 1, 2)))
 
                 # draw ROI
-                cv2.polylines(img, [poly.reshape((-1, 1, 2))], True, color=(0, 0, 255), thickness=2)
+                cv2.polylines(img, [poly.reshape((-1, 1, 2))], True, color=(0, 0, 255), thickness=1)
 
                 # cut ROI to .png
 
@@ -89,9 +89,9 @@ def saveResult(img_file, img, boxes, dirname='./result/', verticals=None, texts=
 
                 if texts is not None:
                     font = cv2.FONT_HERSHEY_SIMPLEX
-                    font_scale = 3
-                    cv2.putText(img, "{}".format(i), (poly[0][0]+1, poly[0][1]+1), font, font_scale, (0, 0, 0), thickness=3)
-                    cv2.putText(img, "{}".format(i), tuple(poly[0]), font, font_scale, (0, 255, 255), thickness=3)
+                    font_scale = 0.5
+                    cv2.putText(img, "{}".format(i), (poly[0][0]+1, poly[0][1]+1), font, font_scale, (0, 0, 0), thickness=0.5)
+                    cv2.putText(img, "{}".format(i), tuple(poly[0]), font, font_scale, (0, 255, 255), thickness=0.5)
 
 
 

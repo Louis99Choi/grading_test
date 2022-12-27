@@ -30,7 +30,7 @@ from craft import CRAFT
 from collections import OrderedDict
 
 ##### set PATH ####
-path_pdfImgDir = "../pdfFolder/class/jpg/c_test/"
+path_pdfImgDir = "../pdfFolder/class/jpg/test/"
 path_result = path_pdfImgDir + "result_detect/"
 
 
